@@ -93,7 +93,7 @@ namespace SerialSample
                 // Configure serial settings
                 serialPort.WriteTimeout = TimeSpan.FromMilliseconds(1000);
                 serialPort.ReadTimeout = TimeSpan.FromMilliseconds(1000);                
-                serialPort.BaudRate = 9600;
+                serialPort.BaudRate = 250000;
                 serialPort.Parity = SerialParity.None;
                 serialPort.StopBits = SerialStopBitCount.One;
                 serialPort.DataBits = 8;
